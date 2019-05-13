@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4FC6DE83D92B2D6B115E5B /* Pods_Todoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBF33381943122D0D4E48E7 /* Pods_Todoy.framework */; };
+		EF86D9AA2274A05200F155BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86D9A92274A05200F155BA /* AppDelegate.swift */; };
+		EF86D9AC2274A05200F155BA /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86D9AB2274A05200F155BA /* TodoListViewController.swift */; };
+		EF86D9AF2274A05200F155BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF86D9AD2274A05200F155BA /* Main.storyboard */; };
+		EF86D9B12274A05700F155BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF86D9B02274A05700F155BA /* Assets.xcassets */; };
+		EF86D9B42274A05700F155BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF86D9B22274A05700F155BA /* LaunchScreen.storyboard */; };
+		EF947FBE2286CF0A00C5B9BF /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF947FBD2286CF0A00C5B9BF /* CategoryViewController.swift */; };
+		EFED13AF2284D806003D717C /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFED13AD2284D806003D717C /* DataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BBF33381943122D0D4E48E7 /* Pods_Todoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D1B030CF1A5C7A9AF93AD0 /* Pods-Todoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoy.debug.xcconfig"; path = "Target Support Files/Pods-Todoy/Pods-Todoy.debug.xcconfig"; sourceTree = "<group>"; };
+		D873FEE96D2048AA3EC91FBE /* Pods-Todoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoy.release.xcconfig"; path = "Target Support Files/Pods-Todoy/Pods-Todoy.release.xcconfig"; sourceTree = "<group>"; };
+		EF86D9A62274A05200F155BA /* Todoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF86D9A92274A05200F155BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF86D9AB2274A05200F155BA /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		EF86D9AE2274A05200F155BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF86D9B02274A05700F155BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF86D9B32274A05700F155BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF86D9B52274A05700F155BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF947FBD2286CF0A00C5B9BF /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		EFED13AE2284D806003D717C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF86D9A32274A05200F155BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4FC6DE83D92B2D6B115E5B /* Pods_Todoy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F47DC99016A426130D5C47F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D1B030CF1A5C7A9AF93AD0 /* Pods-Todoy.debug.xcconfig */,
+				D873FEE96D2048AA3EC91FBE /* Pods-Todoy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DDF8AF1CDA03AA9038D416A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBF33381943122D0D4E48E7 /* Pods_Todoy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF86D99D2274A05100F155BA = {
+			isa = PBXGroup;
+			children = (
+				EF86D9A82274A05200F155BA /* Todoy */,
+				EF86D9A72274A05200F155BA /* Products */,
+				0F47DC99016A426130D5C47F /* Pods */,
+				4DDF8AF1CDA03AA9038D416A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF86D9A72274A05200F155BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D9A62274A05200F155BA /* Todoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF86D9A82274A05200F155BA /* Todoy */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D9A92274A05200F155BA /* AppDelegate.swift */,
+				EF90604D2281BB7E003923DF /* Data Model */,
+				EF90604F2281BBB4003923DF /* Controller */,
+				EF90604E2281BB9F003923DF /* Views */,
+				EF9060502281BBD7003923DF /* Supporting Files */,
+				EF86D9B52274A05700F155BA /* Info.plist */,
+			);
+			path = Todoy;
+			sourceTree = "<group>";
+		};
+		EF90604D2281BB7E003923DF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFED13AD2284D806003D717C /* DataModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		EF90604E2281BB9F003923DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D9AD2274A05200F155BA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF90604F2281BBB4003923DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF947FBD2286CF0A00C5B9BF /* CategoryViewController.swift */,
+				EF86D9AB2274A05200F155BA /* TodoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF9060502281BBD7003923DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D9B02274A05700F155BA /* Assets.xcassets */,
+				EF86D9B22274A05700F155BA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF86D9A52274A05200F155BA /* Todoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF86D9B82274A05700F155BA /* Build configuration list for PBXNativeTarget "Todoy" */;
+			buildPhases = (
+				91FE95748EF630C66A0DB1C2 /* [CP] Check Pods Manifest.lock */,
+				EF86D9A22274A05200F155BA /* Sources */,
+				EF86D9A32274A05200F155BA /* Frameworks */,
+				EF86D9A42274A05200F155BA /* Resources */,
+				7AA0AB10F144DA5108CB23EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todoy;
+			productName = Todoy;
+			productReference = EF86D9A62274A05200F155BA /* Todoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF86D99E2274A05100F155BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nicole Velasco";
+				TargetAttributes = {
+					EF86D9A52274A05200F155BA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = EF86D9A12274A05100F155BA /* Build configuration list for PBXProject "Todoy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF86D99D2274A05100F155BA;
+			productRefGroup = EF86D9A72274A05200F155BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF86D9A52274A05200F155BA /* Todoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF86D9A42274A05200F155BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86D9B42274A05700F155BA /* LaunchScreen.storyboard in Resources */,
+				EF86D9B12274A05700F155BA /* Assets.xcassets in Resources */,
+				EF86D9AF2274A05200F155BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AA0AB10F144DA5108CB23EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todoy/Pods-Todoy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todoy/Pods-Todoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FE95748EF630C66A0DB1C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todoy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF86D9A22274A05200F155BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF947FBE2286CF0A00C5B9BF /* CategoryViewController.swift in Sources */,
+				EF86D9AC2274A05200F155BA /* TodoListViewController.swift in Sources */,
+				EFED13AF2284D806003D717C /* DataModel.xcdatamodeld in Sources */,
+				EF86D9AA2274A05200F155BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF86D9AD2274A05200F155BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF86D9AE2274A05200F155BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF86D9B22274A05700F155BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF86D9B32274A05700F155BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF86D9B62274A05700F155BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF86D9B72274A05700F155BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF86D9B92274A05700F155BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D1B030CF1A5C7A9AF93AD0 /* Pods-Todoy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR493ZMKZ2;
+				INFOPLIST_FILE = Todoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewebsyco.Todoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF86D9BA2274A05700F155BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D873FEE96D2048AA3EC91FBE /* Pods-Todoy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR493ZMKZ2;
+				INFOPLIST_FILE = Todoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewebsyco.Todoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF86D9A12274A05100F155BA /* Build configuration list for PBXProject "Todoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF86D9B62274A05700F155BA /* Debug */,
+				EF86D9B72274A05700F155BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF86D9B82274A05700F155BA /* Build configuration list for PBXNativeTarget "Todoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF86D9B92274A05700F155BA /* Debug */,
+				EF86D9BA2274A05700F155BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFED13AD2284D806003D717C /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFED13AE2284D806003D717C /* DataModel.xcdatamodel */,
+			);
+			currentVersion = EFED13AE2284D806003D717C /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF86D99E2274A05100F155BA /* Project object */;
+}
